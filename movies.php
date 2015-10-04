@@ -1,6 +1,6 @@
 <?php 
 		include("includes/session.php");
-		$pageTitle = "MOVIES | SILVERADO";
+		$pageTitle = "SHOWCASE | SILVERADO";
 		include("includes/head.php");		
 ?>
 
@@ -28,7 +28,7 @@
         <div id="wrapper">	
             
             <div class="movie" >
-            <img src="images/the-fault.jpg"/>
+            <img src="images/the-fault-poster.jpg" width="100%"/>
             <p>THE FAULT IN<br/>
             <span>OUR STARS</span></p>
             	<div>
@@ -37,13 +37,17 @@
                 	<p><span>Director: </span> Josh Boone</p><br/>
                 	<p><span>Language: </span>English</p><br/>
                 	<p><span>Ratings: </span>PG</p><br/><br/>
-                    <p><a href="bookings.php#RC">BOOK</a><br/><br/><br/>
+                    <iframe src="https://www.youtube.com/embed/9ItBvH5J6ss" frameborder="0" 
+                    allowfullscreen>
+                    </iframe>
+                    
+                    <p class="book"><a href="bookings.php#RC">BOOK</a><br/><br/>
             	</div>
             </div>           
        
             
             <div class="movie">
-            <img src="images/mad-max-poster.jpg"/>
+            <img src="images/max-poster.jpg" width="100%"/>
             <p>MAD MAX<br/>
             <span>FURY ROAD<span></p>
             <div>
@@ -52,13 +56,17 @@
                 	<p><span>Director: </span> George Miller</p><br/>
                 	<p><span>Language: </span>English</p><br/>
                 	<p><span>Ratings: </span>PG</p><br/><br/>
-                    <p><a href="bookings.php#AC">BOOK</a><br/><br/><br/>
+                    <iframe src="https://www.youtube.com/embed/hEJnMQG9ev8" frameborder="0" 
+                    allowfullscreen>
+                    </iframe>
+                    
+                    <p class="book"><a href="bookings.php#RC">BOOK</a><br/><br/>
             	</div>
-            </div>       
+            </div>         
             
             
             <div class="movie">
-            <img src="images/pk-poster.jpg"/>
+            <img src="images/pk-movie-poster.jpg" width="100%"/>
             <p>PK<br/>
             <span>2015</span></p>
             <div>
@@ -67,13 +75,17 @@
                 	<p><span>Director: </span>Rajkumar Hirani</p><br/>
                 	<p><span>Language: </span>Hinglish</p><br/>
                 	<p><span>Ratings: </span>PG</p><br/><br/>
-                    <p><a href="bookings.php#AF">BOOK</a><br/><br/><br/>
+                    <iframe src="https://www.youtube.com/embed/82ZEDGPCkT8" frameborder="0" 
+                    allowfullscreen>
+                    </iframe>
+                    
+                    <p class="book"><a href="bookings.php#RC">BOOK</a><br/><br/>
             	</div>
-            </div> 
+            </div>       
             
             
             <div class="movie">
-            <img src="images/UP.jpg"/>
+            <img src="images/up-poster.jpg" width="100%"/>
             <p>UP<br/>
             <span>THE MOVIE</span></p>
             <div>
@@ -82,9 +94,13 @@
                 	<p><span>Director: </span>Pete Docter</p><br/>
                 	<p><span>Language: </span>English</p><br/>
                 	<p><span>Ratings: </span>PG</p><br/><br/>
-                    <p><a href="bookings.php#CH">BOOK</a><br/><br/><br/>
+                    <iframe src="https://www.youtube.com/embed/ORFWdXl_zJ4" frameborder="0" 
+                    allowfullscreen>
+                    </iframe>
+                    
+                    <p class="book"><a href="bookings.php#RC">BOOK</a><br/><br/>
             	</div>
-            </div>
+            </div>       
             
         </div><!-- wrapper ends -->
             

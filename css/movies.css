@@ -26,7 +26,7 @@ main{
 }
 
 #container .heading{
-	width:79%;
+	width:80%;
 	margin:0 auto;
 	margin-bottom:30px;
 	background:url(../images/bookings-heading.png) no-repeat left;
@@ -35,16 +35,19 @@ main{
 
 #wrapper{
 	height:auto;
-	width:79%;
+	width:80%;
+	min-width:400px;
+	
 	overflow:hidden;
 	margin:0 auto;
 }
 
 main .movie{
 	height:auto;
-	width:260px;
+	width:100%;
+	max-width:350px;
 	float:left;
-	margin:3px;
+	margin:0 0 5px 5px;
 	overflow:hidden;
 	
 	background:url(../images/m2-blur.jpg) no-repeat;
@@ -53,32 +56,23 @@ main .movie{
   	-o-background-size: cover;
   	background-size: cover;
 	
-	-webkit-border-radius:3px;
-	-moz-border-radius:3px;
-	-o-border-radius:3px;
-	border-radius:3px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	-o-border-radius:6px;
+	border-radius:6px;
 	
 
-}
-
-main .movie img{
-	
-	-webkit-transition:all 0.6s ease 0s;
-	-moz-transition:all 0.6s ease 0s;
-	-o-transition:all 0.6s ease 0s;
-	transition:all 0.6s ease 0s;	
 }
 
 main .movie p{
-	height:55px;
+	height:50px;
 	width:100%;	
 	color:#FFF;
 	text-align:center;
-	padding:15px 0 5px 0;
-	margin:0;
-	font-family:'museo700';
-	font-size:17px;
-	/*border-bottom:3px solid #000;*/
+	padding:6px 0 5px 0;
+	margin:0 auto;
+	font-family:museo700;
+	font-size:17px;	
 }
 
 
@@ -90,7 +84,7 @@ main .movie p span{
 div.movie { cursor:pointer; }
 div.movie div { display:none; }
 
-#container #wrapper .movie div p{
+.movie div p{
 	border:none;
 	font-family:museo300;	
 	font-size:17px;
@@ -104,27 +98,31 @@ div.movie div { display:none; }
 	
 }
 
-#container #wrapper .movie div p span{
-	color:#ED1C24;
+.movie div p span{
+	color:#FC0;
 	font-size:18px;
 	font-family:museo700;
 }
 
-
-#container #wrapper .movie div p a{
-	background:#ED1C24;
-	border-radius:5px;
-	color:#FFF;
-	text-decoration:none;
-	text-align:center;
-	padding:12px 50px;
-	font-family:museo700;
-	margin-left:35px;
+.book{
+	border:1px solid red;
+	margin:0 auto;
 }
 
-#container #wrapper .movie div p a:hover{
-	background:#FFF;
-	color:#000;
+.book a{
+	background:rgba(255,255,255,0.9);
+	border-radius:4px;
+	color:#222;
+	text-decoration:none;
+	text-align:center;
+	padding:12px 126px;
+	font-family:avenir65;
+	font-size:18px;
+}
+
+.book a:hover{
+	background:#FC0;
+	color:#FFF;
 	
 	-webkit-transition:all 0.3s ease-in 0s;
 	-moz-transition:all 0.3s ease-in 0s;
@@ -133,7 +131,12 @@ div.movie div { display:none; }
 }
 
 
-#container #wrapper .movie div p a:active{
+.book a:active{
 	background:#222;
-	color:#FFF;	
+}
+
+iframe{
+	min-height:195px;
+	width:100%;	
+	margin:5px 0 18px 0;
 }
