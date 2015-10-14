@@ -1,10 +1,10 @@
 <?php 
-
-		include("includes/session.php");
-		$pageTitle = "CONTACT US | SILVERADO";
+		session_start();	// start session
+		$pageTitle = "CONTACT US | SILVERADO";	//page title
 		include("includes/head.php");		
 ?>
 
+		<script src="js/ResponsiveSlides.js-master/jquery.min.js"></script>
 </head>
 
 <body>
@@ -32,7 +32,8 @@
                 <br/>
                 <input type="email" placeholder="Enter Your Email ID" required name="email"/>
                 <br/>
-                <textarea id="messagebox" name="message" required></textarea>
+                <textarea id="messagebox" name="message" 
+                value="" placeholder="Enter a message ..." required></textarea>
                 <br/>
                 <input class="button" type="submit" value="Submit"/>
             

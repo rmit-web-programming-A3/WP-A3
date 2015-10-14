@@ -25,19 +25,24 @@ main{
 	height:auto;
 }
 
-#container .heading{
-	width:79%;
-	margin:0 auto;
-	margin-bottom:30px;
-	background:url(../images/pricing-heading.png) no-repeat left;
-	background-size:auto 100%;
-}
-
 #pricing{
 	height:auto;
 	width:79%;
 	overflow:hidden;
 	margin:0 auto;
+	margin-top:-25px;
+}
+
+.schedule-heading a{
+	text-decoration:none;
+	font-size:25px;
+	color:#333;	
+	padding-right:30px;
+}
+
+.schedule-heading a:hover{
+	background:url(../images/arrow-right-black.png) right center no-repeat;
+	background-size:20px;	
 }
 
 table{	
@@ -54,9 +59,9 @@ table tbody tr{
 table thead tr th{
 	background:#EEE;
 	font-family:museo300;
-	font-size:20px;
+	font-size:19px;
 	font-weight:normal;
-	padding:7px;
+	padding:2px;
 	text-align:left;
 }
 
@@ -66,7 +71,7 @@ table thead tr th span{
 
 table tr td{
 	padding:20px 5px;	
-	width:23%;
+	width:22%;
 }
 
 #pricing p{

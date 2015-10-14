@@ -1,0 +1,126 @@
+*{
+	margin:0;
+	padding:0;	
+}
+
+@media screen and (max-width:650px){
+	main{
+		margin:30px 0 10px;
+	}
+	
+	nav ul{
+		border-bottom:1px solid #ccc;	
+	}
+}
+
+
+@media screen and (min-width:650px){
+	main{
+		margin:100px 0;
+	}
+}
+
+main{
+	/* border:1px solid red; */
+	height:auto;
+}
+
+#coupon{
+	height:auto;
+	width:53%;
+	margin:0 auto;
+	margin-top:-25px;
+}
+
+.schedule-heading a{
+	text-decoration:none;
+	font-size:25px;
+	color:#333;	
+	padding-right:30px;
+}
+
+.schedule-heading a:hover{
+	background:url(../images/arrow-right-black.png) right center no-repeat;
+	background-size:20px;	
+}
+
+table{	
+	border-collapse:collapse;
+}
+
+table tbody tr{
+	font-family:museo300;	
+	font-weight:normal;
+	font-size:18px;
+	border-bottom:1px solid #FC0;
+}
+
+table thead tr th{
+	background:#EEE;
+	font-family:museo300;
+	font-size:19px;
+	font-weight:normal;
+	padding:2px;
+	text-align:left;
+}
+
+table thead tr th span{
+	font-size:15px;	
+}
+
+table tr td{
+	padding:20px 5px;	
+	width:22%;
+}
+
+#coupon p{
+	font-family:museo300;
+	font-size:14px;
+	color:#555;	
+	margin-top:10px;
+}
+
+
+.schedule-heading{
+	font-family:museo300;
+	font-size:30px;
+	font-weight:normal;
+	color:#ED1C24;
+	margin:30px 0;
+		
+}
+
+input{
+	width:100%;
+	height:40px;
+	margin:0 0 8px 0;
+	border-radius:6px;	
+	font-family:museo300;
+	font-size:16px;
+	text-align:center;
+	border:1px solid #CCC;;
+	opacity:0.95;
+	
+}
+
+.button{
+	background:#ED1C24;	
+	text-align:center;
+	border:none;
+	color:#FFF;
+	font-family:museo500;
+	width:100%;
+	margin-bottom:15px;
+}
+
+.button:hover{
+	background:#222;
+	color:#ED1C24;
+	font-family:museo300;
+	border:2px solid #333;
+	
+	-webkit-transition:all 0.1s ease-in 0s;
+	-moz-transition:all 0.1s ease-in 0s;
+	-o-transition:all 0.1s ease-in 0s;
+	transition:all 0.1s ease-in 0s;
+}

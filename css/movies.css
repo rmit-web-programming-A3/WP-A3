@@ -65,14 +65,14 @@ main .movie{
 }
 
 main .movie p{
-	height:50px;
+	height:40px;
 	width:100%;	
 	color:#FFF;
 	text-align:center;
-	padding:6px 0 5px 0;
+	padding:13px 0 0px 0;
 	margin:0 auto;
 	font-family:museo700;
-	font-size:17px;	
+	font-size:17px;
 }
 
 
@@ -82,7 +82,33 @@ main .movie p span{
 }
 
 div.movie { cursor:pointer; }
-div.movie div { display:none; }
+.stuff { display:none; }
+
+.showmore{
+	cursor:pointer;	
+}
+
+.readmore{
+	background:url(../images/arrow-right.png) 75% center no-repeat;
+}
+
+.readmore:hover{
+	background:url(../images/arrow-down.png) 73% center no-repeat;
+	background-size:7px;
+	
+	-webkit-transition:all 0.3s ease-in 0s;
+	-moz-transition:all 0.3s ease-in 0s;
+	-o-transition:all 0.3s ease-in 0s;
+	transition:all 0.3s ease-in 0s;
+}
+
+.readmore:hover{
+	color:#FC0;
+}
+
+.trailer{
+	display:none;	
+}
 
 .movie div p{
 	border:none;
@@ -115,8 +141,8 @@ div.movie div { display:none; }
 	color:#222;
 	text-decoration:none;
 	text-align:center;
-	padding:12px 126px;
-	font-family:avenir65;
+	padding:12px 129px;
+	font-family:museo300;
 	font-size:18px;
 }
 
@@ -138,5 +164,5 @@ div.movie div { display:none; }
 iframe{
 	min-height:195px;
 	width:100%;	
-	margin:5px 0 18px 0;
+	margin:15px 0 18px 0;
 }

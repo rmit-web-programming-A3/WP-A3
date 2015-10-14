@@ -1,0 +1,134 @@
+/* CSS Document */
+
+@charset "utf-8";
+
+body {
+	margin:0;
+	padding:0;
+	background:url(../images/lincoln-back.jpg) no-repeat 0% 0%;
+	background-size:cover;
+}
+
+video{
+	width:100%;	
+}
+
+
+.wrapper{
+	height:500px;
+	width:400px;
+	margin:280px 0 0 20px;
+}
+
+.wrapper img{
+	width:60%;
+	margin:0;
+	padding:0;
+	margin-left:20px;
+}
+
+.panel{
+	margin:0px 0 0 0;	
+}
+
+.panel h1{
+	font-family:museo500;
+	font-size:20px;
+	font-weight:normal;
+	color:rgba(0,0,0,0.5);
+	text-align:left;
+	margin:100px 0 20px 20px;	
+	float:left;
+}
+
+.panel h1 a{
+	text-decoration:none;
+	color:rgba(0,0,0,1);	
+	font-size:19px;
+	font-weight:normal;
+	font-family:museo300;
+	color:rgba(255,255,255,0.4);
+	margin:0 0 20px 0;
+	padding-right:30px;
+	color:rgba(0,0,0,0.5);
+}
+
+.panel .arrow{
+	background:url(../images/arrow-right-black.png) no-repeat right;
+	background-size:15px;
+		
+}
+
+.panel h1 a:hover{
+	text-decoration:none;	
+	color:rgba(0,0,0,0.9);
+	background:url(../images/arrow-right-black.png) no-repeat right;
+	background-size:18px;
+	
+}
+
+input{
+	width:94%;
+	height:40px;
+	margin:0 0 8px 0;
+	border-radius:6px;	
+	font-family:museo300;
+	font-size:16px;
+	color:#555;
+	text-align:left;
+	border:none;
+	opacity:0.95;
+	background:rgba(255,255,255,0.95);
+	padding-left:20px;
+	padding-right:-20px;
+	
+}
+
+input .half{
+	width:50% !important;
+	max-width:100px;
+}
+
+input:focus{
+	background:#FFF;
+	color:#444;
+	font-family:museo500;	
+}
+
+.button{
+	background:#ED1C24;	
+	border:none;
+	color:#FFF;
+	font-family:museo500;
+	width:100%;
+	margin-bottom:15px;
+}
+
+.button:hover{
+	background:#222;
+	color:#ED1C24;
+	font-family:museo300;
+	
+	border:2px solid #333;
+	
+	-webkit-transition:all 0.1s ease-in 0s;
+	-moz-transition:all 0.1s ease-in 0s;
+	-o-transition:all 0.1s ease-in 0s;
+	transition:all 0.1s ease-in 0s;
+}
+
+.message{	
+	font-size:16px;
+	font-weight:normal;
+	font-family:museo100;
+	color:rgba(0,0,0,0.7);
+	margin:0 0 20px 0;	
+	line-height:25px;
+}
+
+
+
+
+
+
+

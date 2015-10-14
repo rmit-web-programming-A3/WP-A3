@@ -1,7 +1,16 @@
 <?php 
 		session_start();	// start session
+		
+		$userid = $_SESSION['user'];
+		
+		if(empty($_SESSION['user']))
+		{					
+		// force send to login page
+		header('Location:login.php');
+		}
+		
 		require("includes/db_connection.php");
-		$pageTitle = "Pricing & Schedule | SILVERADO";	//page title
+		$pageTitle = "My Profile | SILVERADO";	//page title
 		include("includes/head.php");		
 ?>
 
@@ -24,82 +33,66 @@
     	
         <div id="container">
         
-        <h1 class="heading"></h1>
         
         <div id="pricing">        
-        <h1 class="schedule-heading">Movie Pricing</h1>
+        <h1 class="schedule-heading">Welcome |
+        <a href="logout.php">&nbsp;&nbsp;click to logout</a></h1>
         
-        <table>
-        	<thead>
-            <tr>
-            	<th>Seat Type</th>
-            	<th>Mon-Tue</th>
-           		<th>Wed-Fri<br><span>(1pm only)</span></th>
-            	<th>Wed-Fri<br><span>(except 1pm)</span></th>
-            	<th>Sat-Sun</th>
-            </tr>
-            </thead>
-            
-            <tbody>
-            <tr>
-            	<td>Standard-Full</td>
-            	<td>$12</td>
-            	<td>$12</td>
-            	<td>$18</td>
-            	<td>$18</td>
-            </tr>
-            
-            <tr>
-            	<td>Standard-Conc.</td>
-            	<td>$10</td>
-            	<td>$10</td>
-            	<td>$15</td>
-            	<td>$15</td>
-            </tr>
-            
-            <tr>
-            	<td>Standard-Child</td>
-            	<td>$8</td>
-            	<td>$8</td>
-            	<td>$12</td>
-            	<td>$12</td>
-            </tr>
-            
-            <tr>
-            	<td>FirstClass-Adult</td>
-            	<td>$25</td>
-            	<td>$25</td>
-            	<td>$30</td>
-            	<td>$30</td>
-            </tr>
+     
         
-            <tr>
-            	<td>FirstClass-Child</td>
-            	<td>$20</td>
-            	<td>$20</td>
-            	<td>$25</td>
-            	<td>$25</td>
-            </tr>
-        
-            <tr>
-            	<td>Beanbag*</td>
-            	<td>$20</td>
-            	<td>$20</td>
-            	<td>$30</td>
-            	<td>$30</td>
-            </tr>
-            </tbody>
+        <table>   
+		<?php
+			 $sql = "SELECT * FROM user WHERE uId = '$userid'";
+			 $query2 = mysqli_query($connection,$sql);
+			 while($row2 = mysqli_fetch_array($query2))
+			 {
+				$name = $row2['uName'];
+				$email = $row2['uEmail'];
+				$phone = $row2['uPhone'];
+				$secretNo = $row2['uSecret'];		
+			 }			
+	
+        	echo '<thead>';
+            echo '<tr>';
+            echo	'<th>&nbsp;Details</th>';
+            echo	'<th></th>';
+            echo '</tr>';
+            echo '</thead>';
             
-           
-        </table>
-        
-        <p>*<br>Beanbag price allows up to 2 adults OR 1 adult + 1 child Or up to 3 children. One price fits all!</p>
+            echo '<tbody>';
+            
+			echo '<tr>';
+            echo	'<td>Name</td>';
+            echo	'<td>'.$name.'</td>';
+            echo '</tr>';
+			
+			echo '<tr>';
+            echo	'<td>Email</td>';
+            echo	'<td>'.$email.'</td>';
+            echo '</tr>';
+			
+			echo '<tr>';
+            echo	'<td>Phone</td>';
+            echo	'<td>'.$phone.'</td>';
+            echo '</tr>';
+			
+			echo '<tr>';
+            echo	'<td>Secret no</td>';
+            echo	'<td>'.$secretNo.
+					'&nbsp;( 5 digit number for login )</td>';
+            echo '</tr>';
+      
+            echo '</tbody>';
+			
+			?>
+            
+            </table>
         
         </div>
         
         <div id="wrapper">	
         
-        <h1 class="schedule-heading">Movie Schedule</h1>
+        <h1 class="schedule-heading">Have a look at some movies...</h1>
             
             
             <div class="movie">

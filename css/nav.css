@@ -1,0 +1,162 @@
+
+@media (max-width: 700px) {
+		 
+	.nav {
+        text-decoration: none;
+        list-style: none;
+        text-align: center;
+		padding:0;
+        margin:0;
+		
+     }
+	 
+	.nav > li {
+    	display: inline-block;
+	}
+	
+     .nav > li > a{
+         text-decoration: none;
+         font-size: 25px;
+         color : #333;
+		 padding:15px 0;
+		 text-align:center;
+		 font-family:nexa_light;
+		 font-size:18px;
+		 margin:0;
+		 width:100%;
+		 border-bottom:2px solid #DDD;
+		 text-transform:uppercase;
+         background:#EEE;
+		 color:#333;
+
+     }
+	 
+	 .nav > li > a:hover{
+         background:#AAA;
+		 color:#333;
+     }
+     
+      .nav {
+          text-align: left;
+          display: none;
+      }
+         .nav > li {
+          margin:0; 
+          display: block;
+      }
+         .nav-btn {
+             display: block;
+             background:#BBB;
+			 height:40px;
+             color: #FFF;
+			 font-family:nexa_light;
+			 font-weight:normal;
+			 font-size:22px;
+             text-align: center;
+             cursor: pointer;
+			 padding:15px 0 0 0;
+         }
+         
+		 
+         .nav-btn:hover {
+		 	background:#999;
+			color:#FFF;
+		 }
+		 
+         .nav-btn:before{
+               content: "Menu";
+             
+         }
+         
+}
+
+
+@media (min-width: 700px) {
+		 
+
+ 	.nav {
+		margin:0;
+		padding:0;
+		width:100%;
+		text-align:center;
+		}
+	 
+	 .nav > li {
+          margin:0; 
+          display: inline-block;
+		  padding:10px 0 12px;
+      }
+	  
+	 .nav > li > a{
+         text-decoration: none;
+         color : #FFF;
+		 margin:0;
+		 padding:10px 28px 17px;
+		 text-align:center;
+		 font-family:museo500;
+		 font-size:20px;
+		 width:100%;
+		 margin-right:-5px;
+
+     }
+	 
+	 
+.home{
+	background:#F7941E;
+}
+
+.home:hover ,.home:active{
+	background:#F7B759;
+}
+
+.movies{
+	background:#892171;
+}
+
+.movies:hover , .movies:active{
+	background:#A82C91;
+}
+
+.pricing{
+	background:#C45306;
+}
+
+.pricing:hover ,.pricing:active{
+	background:#D85B07;
+}
+
+.booking{
+	background:#231F20;
+}
+
+.booking:hover , .booking:active{
+	background:#443B3E;
+}
+
+
+.contact{
+	background:#EF4136;
+}
+
+.contact:hover , .contact:active{
+	background:#F7706D;
+}
+
+
+.profile{
+	background:#C03;
+}
+
+.profile:hover , .profile:active{
+	background:#C05;
+}
+
+.cart{
+	background:#006;
+}
+
+.cart:hover , .cart:active{
+	background:#009;
+}
+	 
+}

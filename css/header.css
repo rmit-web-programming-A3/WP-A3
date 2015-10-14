@@ -1,5 +1,6 @@
 
-@media screen and (max-width:650px){
+@media screen and (max-width:700px){
+	
 	
 	.container{
 	height:300px;	
@@ -8,130 +9,18 @@
 	.logoHeader{
 	margin:0 auto;
 	height:110px;
-	background:url(../images/silverado-logo-header-small.png) no-repeat center center;
+	background:url(../images/silverado-logo-header.png) no-repeat center center;
+	background-size:220px;
 	}
 	
 	#container .heading{
-		height:54px;
-	}
-	
-}
-
-/* navigation link */
-@media screen and (max-width:700px){
-	nav{
-		height:auto;
-		background:#FFF;
-			
-	}
-	
-	nav ul{
-		
-	margin:0;
-	padding:0;
-	list-style:none;
-	margin:0 auto;
-	width:430px;
-	overflow:hidden;
-		
+	height:54px;
 	}
 	
 	nav ul li a{
-		text-decoration:none;
-		font-family:museo500;
-		font-size:20px;
-		color:#222;		
-		padding:20px 20px;
-		margin:0px auto;
-		text-align:center;
-		float:right;
+	float:none;
+	display:block;
 	}
-	
-	
-	nav ul li a:active, nav ul li a:hover{
-		background:#BBB;
-		color:#FFF;
-		
-	-webkit-transition:all 0.3s ease-in 0s;
-	-moz-transition:all 0.3s ease-in 0s;
-	-o-transition:all 0.3s ease-in 0s;
-	transition:all 0.3s ease-in 0s;
-	
-}
-}
-
-@media screen and (min-width:700px){
-	header .container ul{
-	margin:0;
-	padding:0;
-	list-style:none;
-	width:650px;
-	height:50px;
-	position:absolute;
-	right:0;
-	bottom:0;
-	}
-	
-header .container ul li a{	
-	text-decoration:none;
-	color:#FFF;
-	font-family:museo500;
-	font-size:24px;
-	float:right;
-	padding:11px 40px 13px;
-	border-radius:1px;
-	/*border:1px dotted red;*/
-	
-}
-	
-header .container ul li a:hover{
-	
-	-webkit-transition:all 0.3s ease-in 0s;
-	-moz-transition:all 0.3s ease-in 0s;
-	-o-transition:all 0.3s ease-in 0s;
-	transition:all 0.3s ease-in 0s;
-}
-
-.home{
-	background:#F7941E;
-}
-
-.home:hover ,.home:active{
-	background:#F7B759;
-}
-
-.movies{
-	background:#892171;
-}
-
-.movies:hover , .movies:active{
-	background:#A82C91;
-}
-
-.pricing{
-	background:#C45306;
-}
-
-.pricing:hover ,.pricing:active{
-	background:#D85B07;
-}
-
-.booking{
-	background:#231F20;
-}
-
-.booking:hover , .booking:active{
-	background:#443B3E;
-}
-
-
-.contact{
-	background:#EF4136;
-}
-
-.contact:hover , .contact:active{
-	background:#F7706D;
-}
 }
 
 @media screen and (max-width: 1020px)
@@ -144,12 +33,12 @@ header .container ul li a:hover{
 @media screen and (min-width: 1020px)
 {
 	header{
-	background:url(../images/forest_gump.jpg) right bottom no-repeat;	
+	background:url(../images/forest_gump2.jpg) left bottom no-repeat;	
 	}
 }
 
 
-@media screen and (min-width:650px){
+@media screen and (min-width:700px){
 	
 	.container{
 	height:220px;	
@@ -157,10 +46,10 @@ header .container ul li a:hover{
 	
 	.logoHeader{
 	margin:0;	
-	margin-left:60px;
+	margin:0 auto;
 	height:163px;
-	background:url(../images/silverado-logo-header.png) no-repeat left;
-
+	background:url(../images/silverado-logo-header.png) no-repeat center;
+	background-size:300px;
 	}
 	
 	#container .heading{
@@ -173,6 +62,7 @@ header{
 	width:100%;
 	height:auto;	
 	position:relative;
+	overflow:hidden;
 }
 
 header .container{
@@ -181,7 +71,7 @@ header .container{
 }
 
 .logoHeader{
-	width:411px;
+	width:100%;
 	padding:0;
 }
 

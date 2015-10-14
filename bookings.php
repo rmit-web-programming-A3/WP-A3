@@ -1,7 +1,6 @@
 <?php 
-
-		include("includes/session.php");
-		$pageTitle = "BOOK YOUR MOVIE | SILVERADO";
+		session_start();	// start session
+		$pageTitle = "BOOK YOUR MOVIE | SILVERADO";		//page title
 		include("includes/head.php");		
 ?>
 
@@ -31,11 +30,8 @@
             
             <form action="http://titan.csit.rmit.edu.au/~e54061/wp/testbooking.php" method="post" id="comments">
                
-                                        
-             
-            
-              
-              <select id="movie" name = "movie" style="visibility:hidden">
+                          
+             <select id="movie" name = "movie" style="visibility:hidden">
                    <option value ="CH">CH</option>
                    <option value ="AC">AC</option>
                    <option value ="AF">AF</option>
