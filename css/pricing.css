@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
 	margin:0;
 	padding:0;	
@@ -189,4 +190,195 @@ div.movie div { display:none; }
 #container #wrapper .movie div p a:active{
 	background:#222;
 	color:#FFF;	
+=======
+*{
+	margin:0;
+	padding:0;	
+}
+
+@media screen and (max-width:650px){
+	main{
+		margin:30px 0 10px;
+	}
+	
+	nav ul{
+		border-bottom:1px solid #ccc;	
+	}
+}
+
+
+@media screen and (min-width:650px){
+	main{
+		margin:100px 0;
+	}
+}
+
+main{
+	/* border:1px solid red; */
+	height:auto;
+}
+
+#container .heading{
+	width:79%;
+	margin:0 auto;
+	margin-bottom:30px;
+	background:url(../images/pricing-heading.png) no-repeat left;
+	background-size:auto 100%;
+}
+
+#pricing{
+	height:auto;
+	width:79%;
+	overflow:hidden;
+	margin:0 auto;
+}
+
+table{	
+	border-collapse:collapse;
+}
+
+table tbody tr{
+	font-family:museo300;	
+	font-weight:normal;
+	font-size:18px;
+	border-bottom:1px solid #FC0;
+}
+
+table thead tr th{
+	background:#EEE;
+	font-family:museo300;
+	font-size:20px;
+	font-weight:normal;
+	padding:7px;
+	text-align:left;
+}
+
+table thead tr th span{
+	font-size:15px;	
+}
+
+table tr td{
+	padding:20px 5px;	
+	width:23%;
+}
+
+#pricing p{
+	font-family:museo300;
+	font-size:14px;
+	color:#555;	
+	margin-top:10px;
+}
+
+#wrapper{
+	height:auto;
+	width:79%;
+	overflow:hidden;
+	margin:0 auto;
+}
+
+.schedule-heading{
+	font-family:museo300;
+	font-size:30px;
+	font-weight:normal;
+	color:#ED1C24;
+	margin:30px 0;
+		
+}
+
+main .movie{
+	height:auto;
+	width:260px;
+	float:left;
+	margin:3px;
+	overflow:hidden;
+	
+	background:url(../images/m2-blur.jpg) no-repeat;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	-o-border-radius:3px;
+	border-radius:3px;
+	
+
+}
+
+main .movie img{
+	
+	-webkit-transition:all 0.6s ease 0s;
+	-moz-transition:all 0.6s ease 0s;
+	-o-transition:all 0.6s ease 0s;
+	transition:all 0.6s ease 0s;	
+}
+
+main .movie p{
+	height:55px;
+	width:100%;	
+	color:#FFF;
+	text-align:center;
+	padding:15px 0 5px 0;
+	margin:0;
+	font-family:'museo700';
+	font-size:17px;
+	/*border-bottom:3px solid #000;*/
+}
+
+
+main .movie p span{
+	font-size:15px;
+	font-family:museo500;	
+}
+
+div.movie { cursor:pointer; }
+div.movie div { display:none; }
+
+#container #wrapper .movie div p{
+	border:none;
+	font-family:museo300;	
+	font-size:17px;
+	color:#FFF;
+	text-align:center;
+	height:auto;
+	width:88%;
+	padding: 0 20px;
+	margin:0 auto;
+	line-height:22px;
+	
+}
+
+#container #wrapper .movie div p span{
+	color:#FC0;
+	font-size:18px;
+	font-family:museo700;
+}
+
+
+#container #wrapper .movie div p a{
+	background:#FC0;
+	border-radius:5px;
+	color:#000;
+	text-decoration:none;
+	text-align:center;
+	padding:12px 50px;
+	font-family:museo300;
+}
+
+#container #wrapper .movie div p a:hover{
+	background:#FFF;
+	color:#000;
+	
+	-webkit-transition:all 0.3s ease-in 0s;
+	-moz-transition:all 0.3s ease-in 0s;
+	-o-transition:all 0.3s ease-in 0s;
+	transition:all 0.3s ease-in 0s;
+}
+
+
+#container #wrapper .movie div p a:active{
+	background:#222;
+	color:#FFF;	
+>>>>>>> origin/master
 }

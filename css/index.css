@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
 	margin:0;
 	padding:0;
@@ -71,3 +72,78 @@ article p{
 	line-height:25px;
 	margin:3px;
 }
+=======
+body{
+	margin:0;
+	padding:0;	
+}
+
+
+@media screen and (max-width:590px){
+	#mainSlider{
+	margin:3px auto 0px;	
+	}
+	main{		
+	display:flex;
+	flex-direction:column;
+	}
+	article{
+	display:flex;
+	flex-direction:column;
+	}
+	}
+
+@media screen and (min-width:590px) and (max-width:700px){
+	main{
+	display:block;
+}
+	.box{
+	float:left;	
+	}
+}
+
+@media screen and (min-width:700px){
+	#mainSlider{
+	margin:100px auto 0;	
+	}
+	main{		
+	display:flex;
+	flex-direction:row;	
+	margin:50px auto;
+	}
+	article{
+	margin:50px auto 80px;
+	}
+}
+
+#mainSlider{
+	padding:1px 3px;
+}
+
+main{
+	width:auto;
+	max-width:850px;
+	height:auto;
+	/*border:1px solid red;*/
+	overflow:hidden;
+}
+
+main .box{
+	flex:1;
+	margin: 2.5px 3px;	
+}
+
+article{
+	max-width:850px;
+}
+
+article p{
+	font-family:museo300;
+	font-size:18px;
+	color:#FFF;
+	background:#35BC5B;	
+	padding:30px;
+	line-height:25px;
+	margin:3px;
+}
+>>>>>>> origin/master

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
 <file name="Nexa Bold.otf" server="C:/xampp/htdocs/ankitsejwal/" local="129929786907287441" remote="129929786900000000" Dst="0" />
@@ -39,4 +40,25 @@
 <file name="nexa_light-webfont.ttf" server="ftp.ojasvigroup.com" local="130858293629302245" remote="130889856000000000" Dst="2" />
 <file name="nexa_light-webfont.woff" server="ftp.ojasvigroup.com" local="130858293625022005" remote="130889856000000000" Dst="2" />
 <file name="stylesheet.css" server="ftp.ojasvigroup.com" local="130858293633642491" remote="130889856000000000" Dst="2" />
+=======
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="Nexa Bold.otf" server="C:/xampp/htdocs/ankitsejwal/" local="129929786907287441" remote="129929786900000000" Dst="0" />
+<file name="Nexa Light.otf" server="C:/xampp/htdocs/ankitsejwal/" local="129929786907877474" remote="129929786900000000" Dst="0" />
+<file name="nexa_bold-webfont.eot" server="C:/xampp/htdocs/ankitsejwal/" local="129929789577580173" remote="129929789570000000" Dst="0" />
+<file name="nexa_bold-webfont.svg" server="C:/xampp/htdocs/ankitsejwal/" local="129929789578030198" remote="129929789570000000" Dst="0" />
+<file name="nexa_bold-webfont.ttf" server="C:/xampp/htdocs/ankitsejwal/" local="129929789578830244" remote="129929789570000000" Dst="0" />
+<file name="nexa_bold-webfont.woff" server="C:/xampp/htdocs/ankitsejwal/" local="129929789579100260" remote="129929789570000000" Dst="0" />
+<file name="nexa_light-webfont.eot" server="C:/xampp/htdocs/ankitsejwal/" local="129929789579900305" remote="129929789570000000" Dst="0" />
+<file name="nexa_light-webfont.svg" server="C:/xampp/htdocs/ankitsejwal/" local="129929789580380333" remote="129929789580000000" Dst="0" />
+<file name="nexa_light-webfont.ttf" server="C:/xampp/htdocs/ankitsejwal/" local="129929789580650348" remote="129929789580000000" Dst="0" />
+<file name="nexa_light-webfont.woff" server="C:/xampp/htdocs/ankitsejwal/" local="129929789580870361" remote="129929789580000000" Dst="0" />
+<file name="stylesheet.css" server="C:/xampp/htdocs/ankitsejwal/" local="129929789581490396" remote="129929789580000000" Dst="0" />
+<file name="nexa_bold-webfont.eot" server="31.170.160.93//public_html/" local="129929789577580173" remote="130014722400000000" Dst="0" />
+<file name="nexa_bold-webfont.woff" server="31.170.160.93//public_html/" local="129929789579100260" remote="130014722400000000" Dst="0" />
+<file name="nexa_light-webfont.eot" server="31.170.160.93//public_html/" local="129929789579900305" remote="130014721800000000" Dst="0" />
+<file name="nexa_bold-webfont.ttf" server="31.170.160.93//public_html/" local="129929789578830244" remote="130014721800000000" Dst="0" />
+<file name="nexa_light-webfont.woff" server="31.170.160.93//public_html/" local="129929789580870361" remote="130014721800000000" Dst="0" />
+<file name="nexa_light-webfont.ttf" server="31.170.160.93//public_html/" local="129929789580650348" remote="130014721800000000" Dst="0" />
+>>>>>>> origin/master
 </dwsync>

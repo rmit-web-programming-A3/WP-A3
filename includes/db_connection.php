@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php 
 
 	// connecting to a database
@@ -36,4 +37,22 @@
 	}
 	
 	
+=======
+<?php
+
+	// connection to database
+	
+	$dbhost = 'localhost';
+	$dbuser = 'root';
+	$dbpass = '';
+	$dbname = 'vacationhouse';
+	
+	$connection = mysql_connect($dbhost, $dbuser, $dbpass)
+	or die("failed to connect");
+	
+	$
+	
+	 
+
+>>>>>>> origin/master
 ?>

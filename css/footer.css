@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @charset "utf-8";
 
 @media screen and (max-width: 650px)
@@ -90,4 +91,99 @@ footer {
 	font-size:18px;
 	color:#B7C3EA;
 	text-decoration:none;
+=======
+@charset "utf-8";
+
+@media screen and (max-width: 650px)
+{
+	footer{
+		height:350px;
+		background:url(../images/lincon-small.jpg) right no-repeat;	
+	}
+	
+	footer .logoFooter{
+		height:140px;
+		background:url(../images/silverado-logo-footer-small.png) no-repeat center bottom;	
+	}
+	
+	footer p{
+		text-align:center;	
+		margin:70px auto 0;
+		font-family:museo500;
+		font-size:20px;
+		color:rgba(255,255,255,0.8);
+	}
+}
+	
+@media screen and (min-width:651px) and (max-width: 1100px)
+{
+	footer .logoFooter{	
+	height:200px;
+	background:url(../images/silverado-logo-footer.png) no-repeat left bottom;
+	}
+}
+
+@media screen and (min-width:1101px)
+{
+	footer .logoFooter{
+		height:238px;	
+		background:url(../images/silverado-logo-footer.png) no-repeat left bottom;
+	}
+}
+
+@media screen and (min-width: 650px){
+	
+	footer{
+	height: 500px;
+	background:url(../images/lincon.jpg) right no-repeat;
+	
+	}
+	
+	footer p{
+		font-family:'museo300','nexa_light';
+		font-size:19px;
+		color:#FFF;	
+		line-height:25px;
+		margin:90px 80px 0 0;
+		float:none;
+		text-align:right;
+		
+		footer{
+		height:500px;
+		}
+	}
+}
+
+footer {
+	width:100%;
+	position:relative;
+	margin:0;
+	padding:0;
+}
+
+.container{
+	height:100%;
+	width:100%;
+	background-color:rgba(40,40,50,0.9);
+}
+
+.logoFooter{
+	/*border:1px solid white;*/
+	width:80%;
+	margin:0 auto;
+	background-size:auto 49%;
+}
+
+.container p{	
+	line-height:25px;
+	float:none;
+	/*border:1px solid white;*/
+}
+
+.container p a{
+	font-family:nexa_bold;
+	font-size:18px;
+	color:#B7C3EA;
+	text-decoration:none;
+>>>>>>> origin/master
 }
