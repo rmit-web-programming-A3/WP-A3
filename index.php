@@ -1,7 +1,6 @@
-<?php 
-
-		include("includes/session.php");
-		$pageTitle = "Home | SILVERADO";
+<?php 				
+		session_start();	// start session
+		$pageTitle = "Home | SILVERADO"; // page title
 		include("includes/head.php");		
 ?>
 
@@ -12,7 +11,7 @@
         
         
 <script>
-    
+    	
     $(function () {
 
       // Slideshow 1

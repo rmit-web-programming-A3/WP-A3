@@ -12,13 +12,9 @@
 	}
 	
 	#container .heading{
-	height:54px;
+		height:54px;
 	}
 	
-	nav ul li a{
-	float:none;
-	display:block;
-	}
 }
 
 /* navigation link */

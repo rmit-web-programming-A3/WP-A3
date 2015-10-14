@@ -1,7 +1,6 @@
 <?php 
-
-		include("includes/session.php");
-		$pageTitle = "BOOK YOUR MOVIE | SILVERADO";
+		session_start();	// start session
+		$pageTitle = "BOOK YOUR MOVIE | SILVERADO";		//page title
 		include("includes/head.php");		
 ?>
 

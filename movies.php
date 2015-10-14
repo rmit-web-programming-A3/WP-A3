@@ -1,6 +1,7 @@
 <?php 
-		include("includes/session.php");
-		$pageTitle = "SHOWCASE | SILVERADO";
+		session_start();	// start session
+		require("includes/db_connection.php");
+		$pageTitle = "SHOWCASE | SILVERADO";	//page title
 		include("includes/head.php");		
 ?>
 

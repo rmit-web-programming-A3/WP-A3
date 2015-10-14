@@ -1,7 +1,6 @@
 <?php 
-
-		include("includes/session.php");
-		$pageTitle = "CONTACT US | SILVERADO";
+		session_start();	// start session
+		$pageTitle = "CONTACT US | SILVERADO";	//page title
 		include("includes/head.php");		
 ?>
 
